@@ -69,6 +69,7 @@ header{
     border: 1px solid #ccc;
     /* border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133)) !important; */
     border-radius: 5px;
+    text-indent: 10px;
 }
 
 .section-3 form button{
@@ -77,6 +78,10 @@ header{
     height: 40px;
     background-color: #5fcbae;
 
+}
+
+.section-3 form textarea{
+    height: 120px !important;
 }
 
 .section-4{
