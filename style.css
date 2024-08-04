@@ -1,0 +1,111 @@
+body {
+    background-color: grey;
+}
+
+header{
+    margin: 15px 0px;
+}
+
+.cont-header{
+    max-width: 100%;
+    background-color: #519FED;
+    border-radius: 5px;  
+}
+
+.student{
+    text-align: center;
+    background-color: #fff;
+    width: 45%;
+    margin: auto;
+    padding: 10px;
+}
+
+.user{
+    max-width: 100px;
+}
+
+.name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menu{
+    margin-top: 5px;
+}
+
+.menu p{
+    display: inline-block;
+}
+
+.section-1, .section-2, .section-3, .section-4{
+    max-width: 100%;
+    /*height: 300px;*/
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.section-1{
+    padding: 25px;
+}
+
+.section-2{
+    margin: 15px 0px;
+    padding: 20px;
+}
+
+.section-3{
+    margin: 15px 0px;
+    text-align: center;
+    padding: 25px;
+}
+
+.section-3 form input, button, textarea{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: #f2f3f4;
+    border: 1px solid #ccc;
+    /* border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133)) !important; */
+    border-radius: 5px;
+}
+
+.section-3 form button{
+    font-size: 20px;
+    color: #FFF;
+    height: 40px;
+    background-color: #5fcbae;
+
+}
+
+.section-4{
+    margin: 15px 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    width: 100%;
+}
+
+.social-icons img{
+    display: inline-block;
+    max-width: 50px;
+}
+
+footer{
+    text-align: center;
+    max-width: 100%;
+    background-color: aqua;
+    border-radius: 5px;
+    height: auto;
+    padding: 10px;
+}
